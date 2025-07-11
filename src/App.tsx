@@ -9,6 +9,7 @@ import Login from "./pages/Login";
 import Inventory from "./pages/Inventory";
 import Laboratories from "./pages/Laboratories";
 import Movements from "./pages/Movements";
+import Stocks from "./pages/Stocks";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -39,6 +40,11 @@ const App = () => (
           <Route path="/movements" element={
             <Layout>
               <Movements />
+            </Layout>
+          } />
+          <Route path="/stocks" element={
+            <Layout>
+              <Stocks />
             </Layout>
           } />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
