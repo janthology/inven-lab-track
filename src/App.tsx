@@ -10,6 +10,7 @@ import Inventory from "./pages/Inventory";
 import Laboratories from "./pages/Laboratories";
 import Movements from "./pages/Movements";
 import Stocks from "./pages/Stocks";
+import Suppliers from "./pages/Suppliers";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -45,6 +46,11 @@ const App = () => (
           <Route path="/stocks" element={
             <Layout>
               <Stocks />
+            </Layout>
+          } />
+          <Route path="/suppliers" element={
+            <Layout>
+              <Suppliers />
             </Layout>
           } />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
