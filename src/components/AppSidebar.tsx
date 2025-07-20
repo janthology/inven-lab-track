@@ -13,7 +13,8 @@ import {
   UserCheck,
   History,
   Truck,
-  Package2
+  Package2,
+  Ruler
 } from "lucide-react";
 import { NavLink, useLocation } from "react-router-dom";
 
@@ -46,7 +47,7 @@ const mainNavItems = [
 
 const managementItems = [
   { title: "Categories", url: "/categories", icon: FlaskConical },
-  { title: "Units", url: "/units", icon: TrendingUp },
+  { title: "Units", url: "/units", icon: Ruler },
   { title: "Users", url: "/users", icon: UserCheck },
   { title: "Audit Trail", url: "/audit", icon: History },
 ];
