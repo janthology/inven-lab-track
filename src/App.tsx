@@ -11,6 +11,7 @@ import Laboratories from "./pages/Laboratories";
 import Movements from "./pages/Movements";
 import Stocks from "./pages/Stocks";
 import Suppliers from "./pages/Suppliers";
+import Batches from "./pages/Batches";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -51,6 +52,11 @@ const App = () => (
           <Route path="/suppliers" element={
             <Layout>
               <Suppliers />
+            </Layout>
+          } />
+          <Route path="/batches" element={
+            <Layout>
+              <Batches />
             </Layout>
           } />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}

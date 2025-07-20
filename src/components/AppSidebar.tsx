@@ -12,7 +12,8 @@ import {
   Building2,
   UserCheck,
   History,
-  Truck
+  Truck,
+  Package2
 } from "lucide-react";
 import { NavLink, useLocation } from "react-router-dom";
 
@@ -40,6 +41,7 @@ const mainNavItems = [
   { title: "Stock Management", url: "/stocks", icon: PackageCheck },
   { title: "Movements", url: "/movements", icon: ClipboardList },
   { title: "Suppliers", url: "/suppliers", icon: Truck },
+  { title: "Batches", url: "/batches", icon: Package2 },
 ];
 
 const managementItems = [
